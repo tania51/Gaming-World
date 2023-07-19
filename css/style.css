@@ -170,19 +170,23 @@ font-weight: 700;
     align-items: center;
     padding-top: 70px;
 }
-.article-content {
-    text-align: right;
-    width: 353px;
-}
 .text-pink-color {
     color: #F948B2;
 }
-
+.article-content {
+    width: 352px;
+    text-align: right;
+}
 .basic-title3 {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.article-up-img {
+    position: relative;
+    bottom: 300px;
+    right: 150px;
 }
 
 
