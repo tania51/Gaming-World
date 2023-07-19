@@ -1,0 +1,64 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+/* basic styles
+--primary-color: rgba(249, 72, 178, 100%);
+  --secondary-color: rgba(135, 88, 241, 100%);
+ */
+body {
+margin: 0;
+padding: 0;
+font-family: 'Lato', sans-serif;
+font-family: 'Work Sans', sans-serif;
+max-width: 1920px;
+}
+
+:root {
+--primary-color: #0B0223;
+--secondary-color: ;
+--text-color: #534C64;
+--text-font-size: 18px;
+}
+
+
+/* header styles */
+.header-container {
+padding: 10px 240px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 90px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.logo {
+display: flex;
+}
+.logo img {
+width: 100%;
+padding: 38px 0;
+}
+.logo-text {
+padding-left: 20px;
+}
+.logo-text-color {
+color: #F948B2;
+}
+.header-container .nav {
+display: flex;
+}
+.header-container .nav li {
+padding-right: 30px;
+list-style: none;
+}
+.header-container .nav li a {
+text-decoration: none;
+color: #3C354F;
+font-size: var(--text-font-size);
+font-weight: 500;
+}
+.logo-text {
+color: var(--primary-color);
+font-size: 45px;
+font-weight: 700;
+}
