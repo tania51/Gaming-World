@@ -93,7 +93,9 @@ font-weight: 700;
     background: rgba(11, 2, 35, 0.10);
     padding: 15px 30px;
 }
-
+.menu-btn a {
+    padding-right: 12px;
+}
 /* main section */
 /* banner section */
 .banner-section {
@@ -110,13 +112,13 @@ font-weight: 700;
     background-repeat: no-repeat;
     height: 700px;
     width: 50%;
+    padding-top: 50px;
 }
 .basic-title {
     color: var(--primary-color);
     font-size: var(--primary-font-size);
     font-weight: 700;
     margin-bottom: 0;
-    margin-top: 20%;
 }
 .basic-title2 {
     background: linear-gradient(180deg, #F948B2 0%, #5885F1 100%);
@@ -133,6 +135,28 @@ font-weight: 700;
     font-size: 20px;
     font-weight: 500;
     list-style: none;
+}
+.icon-box img {
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.ico-box3 {
+    display: flex;
+    align-items: center;
+}
+.ico-box img {
+    border: 2px solid #0B0223;
+    border-radius: 50%;
+}
+.ico-box2 img {
+    width: 60px;
+    height: 40px;
+    margin-left: -18px;
+}
+.icon-text {
+    margin-top: -20px;
 }
 .banner-btn {
     display: flex;
@@ -155,7 +179,8 @@ font-weight: 700;
 }
 .video-content {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 100px;
+    padding-bottom: 70px;
 }
 .video-title {
     font-size: 48px;
@@ -322,6 +347,8 @@ font-weight: 700;
     flex-direction: column;
     align-items: center;
     background-color: #0B0223;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 .footer-text {
     color: #fff;
