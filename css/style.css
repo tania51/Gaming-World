@@ -29,6 +29,7 @@ font-family: 'Work Sans', sans-serif;
     text-transform: uppercase;
     padding: 10px 20px;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .basic-title {
@@ -70,6 +71,7 @@ color: #F948B2;
 }
 .nav {
 display: flex;
+align-items: center;
 }
 .nav li {
 padding-right: 30px;
@@ -86,6 +88,11 @@ color: var(--primary-color);
 font-size: 45px;
 font-weight: 700;
 }
+.menu-btn {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 15px 30px;
+}
 
 /* main section */
 /* banner section */
@@ -95,6 +102,7 @@ font-weight: 700;
     justify-content: space-between;
     align-items: center;
     height: 700px;
+    overflow: hidden;
 }
 .banner-content {
     padding-left: 240px;
@@ -107,6 +115,8 @@ font-weight: 700;
     color: var(--primary-color);
     font-size: var(--primary-font-size);
     font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 20%;
 }
 .basic-title2 {
     background: linear-gradient(180deg, #F948B2 0%, #5885F1 100%);
@@ -115,6 +125,8 @@ font-weight: 700;
     -webkit-text-fill-color: transparent;
     font-size: 95px;
     font-weight: 800;
+    margin: 0;
+    padding: 20px 0;
 }
 .icon-box li {
     color: var(--secondary-color);
@@ -129,6 +141,9 @@ font-weight: 700;
 }
 .banner-img img {
     width: 100%;
+}
+.btn2 {
+    background-color: #4EC5F7;
 }
 
 /* main section */
@@ -238,9 +253,10 @@ font-weight: 700;
 .gallery-container {
     padding-left: 240px;
     padding-right: 240px;
-    padding-top: 40px;
     z-index: 9999;
     overflow: hidden;
+    padding-bottom: 120px;
+    margin-top: -100px;
 }
 .gallery-container .img-box {
     display: flex;
@@ -313,6 +329,43 @@ font-weight: 700;
 .footer-container .nav li a {
     color: #fff;
 }
+.footer-copy {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+    text-align: center;
+}
+.footer-container .nav-color li a {
+    color: rgba(255, 255, 255, 0.60);
+}
+.footer-img img {
+    width: 40px;
+    height: auto;
+    padding: 10px 30px;
+}
+.footer-img .youtube-img {
+    width: 35px;
+    background-color: #fff;
+    padding: 6px 14px;
+    border-radius: 10px;
+    margin-top: 16px;
+    margin-left: 8px;
+    margin-right: 4px;
+}
+.footer-img .face-img {
+    width: 45px;
+}
+.footer-img .in-img {
+    width: 100px;
+}
+.footer-img .insta-img {
+    width: 70px;
+    margin-top: -10px;
+}
+.footer-img .apple-img {
+    width: 65px;
+    margin-top: -5px;
+}
 
 
 
@@ -328,13 +381,13 @@ font-weight: 700;
         flex-direction: column;
     }
     .article-container {
-        padding-left: 60px;
+        padding-left: 17px;
         padding-right: 0px;
     }
     .header-container,
     .video-container {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
         text-align: center;
     }
     .header-container {
@@ -348,13 +401,14 @@ font-weight: 700;
         padding-right: 0;
         height: auto;
     }
+    
     .banner-content {
         width: 100%;
-        height: auto;
-        padding-left: 100px;
+        padding-left: 84px;
     }
     .banner-img {
-        padding-left: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .nav li {
         padding-bottom: 20px;
@@ -365,19 +419,39 @@ font-weight: 700;
     }
     .article-img > img {
         width: 360px;
-        padding-left: 80px;
+        padding-left: 0;
     }
     .article-up-img > img {
         width: 180px;
     }
     .article-up-img {
         bottom: 160px;
-        left: 30px;
+        left: -33px;
     }
     .gallery-container {
         display: none;
     }
     .gallery-container2 {
         display: block;
+    }
+    .footer-container .nav {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-container .nav2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-copy {
+        max-width: 258px;
+    }
+    .footer-img img {
+        padding: 0;
+    }
+    .footer-img .twitter-img {
+        margin-left: 24px;
+    }
+    .footer-img .youtube-img {
+        margin-top: 7px;
     }
 }
