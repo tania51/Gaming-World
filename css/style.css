@@ -266,6 +266,7 @@ font-weight: 700;
 .article-img {
     margin-bottom: -180px;
     text-align: right;
+    margin-left: 80px;
 }
 .article-img img {
     width: 90%;
@@ -474,7 +475,7 @@ font-weight: 700;
         text-align: center;
     }
     .article-img > img {
-        width: 360px;
+        width: 260px;
         padding-left: 0;
     }
     .article-up-img > img {
@@ -482,13 +483,17 @@ font-weight: 700;
     }
     .article-up-img {
         bottom: 160px;
-        left: -33px;
+        left: -180px;
     }
     .gallery-container {
         display: none;
     }
     .gallery-container2 {
         display: block;
+    }
+    .gallery-container .img-box .content-box img {
+        width: 25px;
+        height: 25px;
     }
     .footer-container .nav {
         display: grid;
