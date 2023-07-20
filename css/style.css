@@ -251,7 +251,6 @@ font-weight: 700;
     padding-right: 240px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding-top: 70px;
 }
 .text-pink-color {
@@ -260,6 +259,11 @@ font-weight: 700;
 .article-content {
     width: 352px;
     text-align: right;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+.article-img {
+    margin-bottom: -180px;
 }
 .basic-title3 {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -271,6 +275,21 @@ font-weight: 700;
     position: relative;
     bottom: 300px;
     right: 150px;
+}
+
+.article-container2 {
+    padding-left: 240px;
+    padding-right: 240px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+.article-up-img2 {
+    position: relative;
+    bottom: 300px;
+    left: 500px;
 }
 
 
