@@ -150,9 +150,53 @@ font-weight: 700;
     gap: 24px;
     justify-content: space-between;
 }
+/* image overlay */
+.card-img {
+    position: relative;
+}
 .card img {
     width: 100%;
+    display: block;
+    height: auto;
 }
+.card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.5s ease;
+    border-radius: 20px;
+}
+.card-img:hover .card-overlay {
+    height: 100%;
+}
+.card-overlay img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: #fff;
+}
+.card-overlay p {
+    position: absolute;
+    top: 58%;
+    left: 35%;
+    color: #F948B2;
+}
+
+
+
+
+
+
 .card .card-description {
     color: #534C64;
     font-size: 20px;
@@ -218,9 +262,11 @@ font-weight: 700;
     height: 60px;
 }
 .gallery-container .img-box .content-box:hover {
-    border: 1px solid red;
+    border: 1px solid #F948B2;
 }
-
+.gallery-container2 {
+    display: none;
+}
 
 
 
@@ -274,10 +320,8 @@ font-weight: 700;
 
 /* media query */
 @media screen and (max-width: 768px) {
-    
     .header-container,
     .nav,
-    .banner-section,
     .video-section,
     .article-container
      {
@@ -287,9 +331,30 @@ font-weight: 700;
         padding-left: 60px;
         padding-right: 0px;
     }
+    .header-container,
     .video-container {
-        padding-left: 120px;
-        padding-right: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .header-container {
+        width: 100%;
+        height: auto;
+        box-shadow: none;
+    }
+
+    .banner-section {
+        flex-direction: column-reverse;
+        padding-right: 0;
+        height: auto;
+    }
+    .banner-content {
+        width: 100%;
+        height: auto;
+        padding-left: 100px;
+    }
+    .banner-img {
+        padding-left: 50px;
     }
     .nav li {
         padding-bottom: 20px;
@@ -308,5 +373,11 @@ font-weight: 700;
     .article-up-img {
         bottom: 160px;
         left: 30px;
+    }
+    .gallery-container {
+        display: none;
+    }
+    .gallery-container2 {
+        display: block;
     }
 }
