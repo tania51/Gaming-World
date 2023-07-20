@@ -47,8 +47,8 @@ font-family: 'Work Sans', sans-serif;
 /* header styles */
 
 .header-container {
-    padding-left: 240px;
-    padding-right: 240px;
+    padding-left: 140px;
+    padding-right: 140px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -99,7 +99,7 @@ font-weight: 700;
 /* main section */
 /* banner section */
 .banner-section {
-    padding-right: 240px;
+    padding-right: 140px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -107,7 +107,7 @@ font-weight: 700;
     overflow: hidden;
 }
 .banner-content {
-    padding-left: 240px;
+    padding-left: 140px;
     background-image: url('../images/Group 14.png');
     background-repeat: no-repeat;
     height: 700px;
@@ -174,8 +174,8 @@ font-weight: 700;
 
 /* video section */
 .video-container {
-    padding-left: 240px;
-    padding-right: 240px;
+    padding-left: 140px;
+    padding-right: 140px;
 }
 .video-content {
     text-align: center;
@@ -247,13 +247,13 @@ font-weight: 700;
 
 /* article section */
 .article-container {
-    padding-left: 240px;
-    padding-right: 240px;
+    padding-left: 140px;
+    padding-right: 140px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 70px;
-    padding-bottom: 240px;
+    padding-bottom: 140px;
 }
 .text-pink-color {
     color: #F948B2;
@@ -268,26 +268,26 @@ font-weight: 700;
     text-align: right;
 }
 .article-img img {
-    width: 70%;
+    width: 90%;
 }
 .basic-title3 {
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background: #F948B2;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .article-up-img {
     position: relative;
-    bottom: 180px;
-    right: 304px;
+    bottom: 217px;
+    right: 446px;
 }
 .article-up-img img {
-    width: 35%;
+    width: 44%;
 }
 
 .article-container2 {
-    padding-left: 240px;
-    padding-right: 240px;
+    padding-left: 140px;
+    padding-right: 140px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -303,8 +303,8 @@ font-weight: 700;
 
 /* image section */
 .gallery-container {
-    padding-left: 240px;
-    padding-right: 240px;
+    padding-left: 140px;
+    padding-right: 140px;
     z-index: 9999;
     overflow: hidden;
     padding-bottom: 120px;
