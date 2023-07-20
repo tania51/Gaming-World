@@ -251,7 +251,9 @@ font-weight: 700;
     padding-right: 240px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 70px;
+    padding-bottom: 240px;
 }
 .text-pink-color {
     color: #F948B2;
@@ -260,10 +262,13 @@ font-weight: 700;
     width: 352px;
     text-align: right;
     margin: 0 auto;
-    padding-top: 150px;
 }
 .article-img {
     margin-bottom: -180px;
+    text-align: right;
+}
+.article-img img {
+    width: 70%;
 }
 .basic-title3 {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -273,8 +278,11 @@ font-weight: 700;
 }
 .article-up-img {
     position: relative;
-    bottom: 300px;
-    right: 150px;
+    bottom: 180px;
+    right: 304px;
+}
+.article-up-img img {
+    width: 35%;
 }
 
 .article-container2 {
@@ -422,10 +430,12 @@ font-weight: 700;
     .header-container,
     .nav,
     .video-section,
-    .article-container
+    .article-container,
+    .artile-container2
      {
         flex-direction: column;
     }
+    .article-container,
     .article-container {
         padding-left: 17px;
         padding-right: 0px;
